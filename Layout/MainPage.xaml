@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Tipos de Layouts"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"/>
+
+            <Button
+                x:Name="VerticalButton"
+                Text="Layout vertical" 
+                SemanticProperties.Hint="Orientación vertical"
+                Clicked="VerticalButton_Clicked"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                x:Name="HorizontalButton"
+                Text="Layout horizontal"
+                SemanticProperties.Hint="Orientación horizintal"
+                Clicked="HorizontalButton_Clicked"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                x:Name="GridButton"
+                Text="Layout grid"
+                SemanticProperties.Hint="Orientación grid"
+                Clicked="GridButton_Clicked"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                x:Name="AbsoluteButton"
+                Text="Layout absoluto"
+                SemanticProperties.Hint="Orientación absoluta"
+                Clicked="AbsoluteButton_Clicked"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                x:Name="FlexButton"
+                Text="Layout flex"
+                SemanticProperties.Hint="Orientación flex"
+                Clicked="FlexButton_Clicked"
+                HorizontalOptions="Fill"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

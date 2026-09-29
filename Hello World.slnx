@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Hello World/Hello World.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Layout/Layout.csproj" Id="16969345-9ee6-4c7b-ae38-478df190f47d">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Layouts/Layouts.csproj" Id="61342856-b925-40a6-aa9f-09bab8e32c01" />
+</Solution>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora_IMC.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Tu peso (en Kg)"/>
+            <Entry
+                x:Name="entryPeso"
+                Keyboard="Numeric"/>
+            
+            <Label
+                Text="Tu altura ()En Cm"/>
+            <Entry
+                x:Name="entryAltura"
+                Keyboard="Numeric"/>
+
+            <Button
+                x:Name="Calcular_IMC"
+                Text="Calcular tu IMC" 
+                SemanticProperties.Hint="Llama la funcion para calcular el IMC"
+                Clicked="calcularIMC"
+                HorizontalOptions="Fill" />
+
+            <Label
+                x:Name="resultado"
+                Text=""/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

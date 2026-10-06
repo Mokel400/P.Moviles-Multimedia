@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="Calculadora_IMC/Calculadora_IMC.csproj" Id="83ea7053-669d-4a5f-8a9a-926cf4080168">
+    <Deploy Solution="Debug|*" />
+  </Project>
   <Project Path="elementos/Elementos.csproj" Id="14ec46cb-3ceb-4aa2-9b3a-f808d52d965a" />
   <Project Path="Layout/Layout.csproj" Id="16969345-9ee6-4c7b-ae38-478df190f47d">
     <Deploy Solution="Debug|*" />

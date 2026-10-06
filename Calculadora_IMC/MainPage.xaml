@@ -29,7 +29,12 @@
 
             <Label
                 x:Name="resultado"
-                Text=""/>
+                Text=" "/>
+
+            <Image
+                x:Name="imagenResultado"
+                Source=" "
+                MaximumHeightRequest="200"/>
         </VerticalStackLayout>
     </ScrollView>
 
